@@ -7,10 +7,12 @@
 	left: 0;
 	top:0;
 	display: block;
+	position: relative;
 }
 
+
 h1{
-	width: 50%;
+	width: 100%;
 	height: 20%;
 	margin: 0;
 	margin-top: 20px;
@@ -18,12 +20,11 @@ h1{
 	text-align: center;
 	position: relative;
 	z-index: 5;
-	padding: 30px;
+	padding: 5px;
 	color: black;
-	font-family: sans-serif;
-	font-size: 50px;
-	background: orange;
-	font-family: 'Macondo', cursive;
+	font-size: 18px;
+	background: white;
+	font-family:'Macondo', cursive;
 }
 h2{
 	width: 50%;
@@ -35,7 +36,7 @@ h2{
 	position: relative;
 	z-index: 5;
 	padding: 30px;
-	color: black;
+	color: yellow ;
 	font-family: sans-serif;
 	font-size: 15 ;
 	font-family: 'Macondo', cursive;
@@ -43,9 +44,9 @@ h2{
 }
 .border-foto{
 	border-color: red;
-	border-width: 10px;
+	border-width: 20px;
     border-style: groove;
-	border-radius: 20%;
+	border-radius: 10%;
 	z-index: 1;
 	position: relative;
 }			
@@ -64,14 +65,13 @@ h3{
 	width: 50%;
 	height: 20%;
 	margin: 0;
-	margin-top: 2;
-	margin-bottom: 0;
+	margin-top: 2px;
+	margin-bottom: 0px;
 	text-align: center;
 	position: relative;
 	z-index: 5;
 	padding: 30px;
 	color: black;
-	font-family: sans-serif;
 	font-size: 30px;
 	background:yellow; 
 	font-family: 'Macondo', cursive;
@@ -79,55 +79,34 @@ h3{
 	font-family: 'Permanent Marker', cursive;
 
 }
-
 .food1{
+	
+	width: 90%;
+	height: 25%;
 	position: relative;
-	width: 25%;
-	height: 25;
-	z-index: 1;
-	padding: 30px;
-	top: 10px;
-	left: 120px;
-	right: 80px;
-	bottom: 0px;
+	border-left: 10px groove green;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 .food2{
+	width: 90%;
+	height: 25%;
 	position: relative;
-	width: 25%;
-	height: 25;
-	z-index: 1;
-	padding: 30px;
-	top: 10px;
-	left: 80px;
-	right: 80px;
-	bottom: 0px;
+	border-color: green;
+	border-width: 10px;
+	border-style: groove;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-
 .food3{
+	width: 90%;
+	height: 25%;
 	position: relative;
-	width: 25%;
-	height: 25;
-	z-index: 1;
-	padding: 30px;
-	top: 10px;
-	left: 40px;
-	right: 80px;
-	bottom: 0px;
-}
-
-.p1{
-	width: 80%;
-	height: 20%;
-	position: relative;
-	z-index: 5;
-	padding: 30px;
-	text-align: center;
-	font-size: 20px;
-	font-family: sans-serif;
-	color: white;
-	background: green;
-	letter-spacing: 1px;
+	border-right: 10px groove green;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h4{
@@ -149,13 +128,21 @@ h4{
 	font-family: 'Permanent Marker', cursive;
 
 }
-
-
-.drink1{
+.p1{
+	width: 100%;
+	height: 20%;
 	position: relative;
-	width: 25%;
+	z-index: 5;
+	padding: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.drink1{
+	width: 100%;
 	height: 25;
-	z-index: 1;
 	padding: 30px;
 	top: 10px;
 	left: 120px;
@@ -164,63 +151,66 @@ h4{
 }
 
 .drink2{
-	position: relative;
-	width: 25%;
+	width: 100%;
 	height: 25;
-	z-index: 1;
 	padding: 30px;
 	top: 10px;
-	left: 80px;
+	left: 120px;
 	right: 80px;
 	bottom: 0px;
 }
-
 .drink3{
-	position: relative;
-	width: 25%;
+	width: 100%;
 	height: 25;
-	z-index: 1;
 	padding: 30px;
 	top: 10px;
-	left: 40px;
+	left: 120px;
 	right: 80px;
 	bottom: 0px;
 }
 
 .p2{
-	width: 50%;
-	height: 10%;
+	width: 100%;
+	height: 20%;
 	position: relative;
 	z-index: 5;
 	padding: 30px;
-	text-align: justify;
+	text-align: right;
 	font-size: 20px;
-	font-family: sans-serif;
 	color: white;
-	background: green;
+	font-family: sans-serif;
 	letter-spacing: 1px;
-	margin-right: 50cm;
-	margin-left: 0.5cm;
-	margin-top:  0.5cm;
-	margin-bottom: 2cm;
-	text-align: left;
+	line-height: 120%;
 }
+
 
 .p3{
-	width: 50%;
-	height: 10%;
+	width: 100%;
+	height: 20%;
 	position: relative;
 	z-index: 5;
 	padding: 30px;
 	text-align: left;
 	font-size: 20px;
-	font-family: sans-serif;
 	color: white;
-	background: green;
-	margin-right: 0.5cm;
-	margin-left: 15cm;
-	margin-top:  0.5cm;
-	margin-bottom: 2cm;
+	font-family: sans-serif;
 	letter-spacing: 1px;
+	line-height: 120%;
+	float: center;
+	
 }
 
+.tengah{
+position: relative;
+margin-top: 20px;
+margin-left: 100px;
+margin-right: 50px;
+left: 30%;
+top: 50%;
+width: 300px;
+height: 30px;
+background-color: brown;
+margin-bottom: 50px;
+font-family:'Macondo', cursive;
+border: none;
+}
