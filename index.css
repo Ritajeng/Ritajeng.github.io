@@ -1,0 +1,226 @@
+.big{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	float: center;
+	left: 0;
+	top:0;
+	display: block;
+}
+
+h1{
+	width: 50%;
+	height: 20%;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	color: black;
+	font-family: sans-serif;
+	font-size: 50px;
+	background: orange;
+	font-family: 'Macondo', cursive;
+}
+h2{
+	width: 50%;
+	height: 20%;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	color: black;
+	font-family: sans-serif;
+	font-size: 15 ;
+	font-family: 'Macondo', cursive;
+	font-family: 'Pacifico', cursive;
+}
+.border-foto{
+	border-color: red;
+	border-width: 10px;
+    border-style: groove;
+	border-radius: 20%;
+	z-index: 1;
+	position: relative;
+}			
+
+.home{
+	position: relative;
+	width: 50%;
+	height: 1;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	bottom: 0px;
+}
+
+h3{
+	width: 50%;
+	height: 20%;
+	margin: 0;
+	margin-top: 2;
+	margin-bottom: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	color: black;
+	font-family: sans-serif;
+	font-size: 30px;
+	background:yellow; 
+	font-family: 'Macondo', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.food1{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 120px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.food2{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 80px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.food3{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 40px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.p1{
+	width: 80%;
+	height: 20%;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	background: green;
+	letter-spacing: 1px;
+}
+
+h4{
+	width: 50%;
+	height: 20%;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	color: black;
+	font-family: sans-serif;
+	font-size: 30px;
+	background:yellow; 
+	font-family: 'Macondo', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+
+.drink1{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 120px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.drink2{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 80px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.drink3{
+	position: relative;
+	width: 25%;
+	height: 25;
+	z-index: 1;
+	padding: 30px;
+	top: 10px;
+	left: 40px;
+	right: 80px;
+	bottom: 0px;
+}
+
+.p2{
+	width: 50%;
+	height: 10%;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	background: green;
+	letter-spacing: 1px;
+	margin-right: 50cm;
+	margin-left: 0.5cm;
+	margin-top:  0.5cm;
+	margin-bottom: 2cm;
+	text-align: left;
+}
+
+.p3{
+	width: 50%;
+	height: 10%;
+	position: relative;
+	z-index: 5;
+	padding: 30px;
+	text-align: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	background: green;
+	margin-right: 0.5cm;
+	margin-left: 15cm;
+	margin-top:  0.5cm;
+	margin-bottom: 2cm;
+	letter-spacing: 1px;
+}
+
