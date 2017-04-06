@@ -214,3 +214,18 @@ margin-bottom: 50px;
 font-family:'Macondo', cursive;
 border: none;
 }
+
+/*header {
+  background-image: url('dia.jpg');
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+}*/
+
+#navatas{
+	margin-bottom: 0;
+}

@@ -3,6 +3,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="index.js"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -20,20 +21,28 @@
 
 	<title>internshiptugaskedua</title>
 </head>
-<body style="background-color: orange">
-<div class="container-fluid">
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">Ritajeng_07 Web</a>
+<body style="background-color: #303b4f;">
+<nav id='navatas' class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Ritajeng_07 Web</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Food</a></li>
+      <li><a href="#">Drink</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Header -->
+    <!-- <header>
+	    <div class="container">
+	    	<h1>testing</h1>
 	    </div>
-	    <ul class="nav navbar-nav">
-	      <li class="active"><a href="#">Home</a></li>
-	      <li><a href="#">Food</a></li>
-	      <li><a href="#">Drink</a></li>
-	    </ul>
-	  </div>
-	</nav>
+    </header> -->
+  <!-- batas header -->
+<!-- <img src="dia.jpg" style='width: 100%; height:"auto";''> -->
+<!-- <div class="container-fluid"> -->
 <!--<img class ="big" src="dia.jpg">-->
 <div class= "container">
 	<div class = "jumbotron">
@@ -104,7 +113,7 @@
 
 	<form>
 		<div>
-			<button type ="Search" class="tengah btn-primary" style="background-color: brown ; color:black"> <span class="glyphicon glyphicon-search"></span>Search Your Food and Drink</button>
+			<button onclick = "klik()"; type ="Search" class="tengah btn-primary" style="background-color: brown ; color:black"> <span class="glyphicon glyphicon-search"></span>Search Your Food and Drink</button>
 		</div>
 	</form>
 </div>
